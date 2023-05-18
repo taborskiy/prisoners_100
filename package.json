@@ -1,0 +1,20 @@
+{
+  "name": "prisoners_100",
+  "version": "1.0.0",
+  "description": "100 prisoners prodlem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taborskiy/prisoners_100.git"
+  },
+  "author": "Taborskiy Marian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taborskiy/prisoners_100/issues"
+  },
+  "homepage": "https://github.com/taborskiy/prisoners_100#readme"
+}
