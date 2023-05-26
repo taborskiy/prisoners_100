@@ -1,4 +1,4 @@
-const arrayGenerate = (arrLength = 100) => {
+const generateArrayOfRandomNumbers = (arrLength = 100) => {
   const randomNumbers = [];
 
   while (randomNumbers.length < arrLength) {
@@ -13,5 +13,5 @@ const arrayGenerate = (arrLength = 100) => {
 }
 
 module.exports = {
-  arrayGenerate
+  generateArrayOfRandomNumbers
 }
