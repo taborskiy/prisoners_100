@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "random": "node testRandomStrategies.js"
+    "random": "node testRandomStrategies.js",
+    "number": "node testNumberStrategies.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/taborskiy/prisoners_100/issues"
   },
-  "homepage": "https://github.com/taborskiy/prisoners_100#readme"
+  "homepage": "https://github.com/taborskiy/prisoners_100#readme",
+  "dependencies": {
+    "dotenv": "^16.1.3"
+  }
 }

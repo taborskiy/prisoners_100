@@ -3,14 +3,14 @@ const {NUMBER_OF_PRISONRS, RANDOM_ARRAY_LENGTH, NUMBER_TESTING} = process.env;
 
 const {generateArrayOfRandomNumbers} = require('./utils/generateArrayOfRandomNumbers');
 const arrayOfPrisoners = require('./utils/prisonersGenerate').getneratePrisoners(NUMBER_OF_PRISONRS);
-const {randomStrategies} = require('./strategies/randomStategy')
+const {numberStrategies} = require('./strategies/numberStategy')
 
-console.log('START OF TESTING', NUMBER_OF_PRISONRS)
+console.log('START OF TESTING')
 const results = [];
 const prepareViewResult = {};
 
 for(let i = 0; i < NUMBER_TESTING; i++) {
-  const result = randomStrategies(generateArrayOfRandomNumbers(RANDOM_ARRAY_LENGTH), arrayOfPrisoners)
+  const result = numberStrategies(generateArrayOfRandomNumbers(RANDOM_ARRAY_LENGTH), arrayOfPrisoners)
   results.push(result)
 }
 
