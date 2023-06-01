@@ -1,7 +1,9 @@
-npm i
-
 # prisoners_100
 100 prisoners problem, use Node scripts to test solution.
+
+to start run command to install dependencies
+
+npm i
 
 # Two test command 
   npm run random
